@@ -1,0 +1,15 @@
+QT.network_private.VERSION = 6.4.1
+QT.network_private.name = QtNetwork
+QT.network_private.module =
+QT.network_private.libs = $$QT_MODULE_LIB_BASE
+QT.network_private.includes = $$QT_MODULE_INCLUDE_BASE/QtNetwork/6.4.1 $$QT_MODULE_INCLUDE_BASE/QtNetwork/6.4.1/QtNetwork
+QT.network_private.frameworks = 
+QT.network_private.depends = core_private network
+QT.network_private.uses = 
+QT.network_private.module_config = v2 internal_module
+QT.network_private.enabled_features = openssl system-proxies networklistmanager publicsuffix-qt
+QT.network_private.disabled_features = ifr_index libproxy linux-netlink openssl-linked publicsuffix-system
+QMAKE_LIBS_OPENSSL =
+QMAKE_LIBS_OPENSSL_DEBUG = -L"C:/openssl/lib/VC" -llibssl64MDd
+QMAKE_LIBS_OPENSSL_RELEASE = -L"C:/openssl/lib/VC" -llibssl64MD
+QMAKE_INCDIR_OPENSSL = C:/openssl/include

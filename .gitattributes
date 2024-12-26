@@ -1,0 +1,2 @@
+Qt6QmlDomd.lib filter=lfs diff=lfs merge=lfs -text
+Qt6QmlDom.lib filter=lfs diff=lfs merge=lfs -text
